@@ -14,8 +14,8 @@ export default async function Post(props: {
     }
 
     return (
-        <div className="min-h-screen bg-gray-100">
-            <article className="bg-white rounded-lg shadow-md p-8">
+        <div className="min-h-screen">
+            <article className="rounded-lg shadow-md p-8">
                 <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
                 <p className="text-gray-600 mb-8">{post.date}</p>
                 <div className="prose max-w-none">

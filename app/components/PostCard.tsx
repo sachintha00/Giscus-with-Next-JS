@@ -7,7 +7,7 @@ interface PostCardProps {
 
 export default function PostCard({ post }: PostCardProps) {
     return (
-        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+        <div className="rounded-lg shadow-md p-6 mb-6">
             <h2 className="text-2xl font-bold mb-2">
                 <Link href={`/posts/${post.slug}`} className="text-blue-600 hover:text-blue-800">
                     {post.title}

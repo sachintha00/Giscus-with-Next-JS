@@ -17,9 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="bg-white shadow-lg">
+        <nav className="shadow-lg">
           <div className="max-w-6xl mx-auto px-4 py-5">
-            <a href="/" className="text-2xl font-bold text-gray-800">
+            <a href="/" className="text-2xl font-bold text-gray-300">
               My Blog
             </a>
           </div>
@@ -29,8 +29,8 @@ export default function RootLayout({
           {children}
         </main>
 
-        <footer className="bg-white mt-8 py-4">
-          <div className="max-w-6xl mx-auto px-4 text-center text-gray-600">
+        <footer className="mt-8 py-4">
+          <div className="max-w-6xl mx-auto px-4 text-center text-gray-300">
             © 2025 My Blog
           </div>
         </footer>
